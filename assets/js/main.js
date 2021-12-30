@@ -1,6 +1,6 @@
 // nav
 $(window).on("scroll", function () {
-  if ($(window).scrollTop() > 660) {
+  if ($(window).scrollTop() > 630) {
     $("#header").addClass("on");
   } else {
     $("#header").removeClass("on");
@@ -17,15 +17,3 @@ $(window).on("load", function () {
       });
   }
 });
-
-// typed
-const options = {
-  strings: ["Menyenangkan", "Mengasyikkan"],
-  startDelay: 1000,
-  typeSpeed: 100,
-  backSpeed: 100,
-  backDelay: 1000,
-  loop: true,
-};
-
-const typed = new Typed(".typed", options);
